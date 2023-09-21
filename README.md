@@ -51,3 +51,18 @@ a sua inteligência e via o cérebro como uma máquina cujo funcionamento pode s
 informático indiano naturalizado estadunidense, foi o primeiro asiático a vencer o prêmio TURING. entre suas contribuições para a ia estão a criação do instituto de robótica da cmu e demonstrações de diversos sistemas que usam alguma forma de ia. entre esses sistemas, estão sistemas de: fala, controlados por voz, reconhecimento de voz, reconhecimento de voz independente
 
 ```
+
+## NUVEM DE PALAVRAS
+
+O arquivo Nuvem_de_Palavras(spacy).py realiza a construção da Nuvem de Palavras do texto acima.
+Uma primeira análise no texto, sem os devidos tratamentos necessários, nos mostram uma nuvem de palavras genéricas:
+
+![image](https://github.com/JesseOliveiraUFC/nlp/assets/97004339/12e64d15-f0d1-4dcc-a160-917bd93a445b)
+
+Essas palavras são muito genéricas e não expressam o conteúdo do texto. Essas palavras genéricas são chamadas de Stop Words, e devem ser removidas antes de qualquer análise.
+Assim, a nova Nuvem de Palavras, sem as stop words, fica:
+
+![image](https://github.com/JesseOliveiraUFC/nlp/assets/97004339/deba29fc-4e82-482b-846c-2723ea9ac652)
+
+Com isso, podemos ter uma noção rápida de sobre o que o texto explica.
+
