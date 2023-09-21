@@ -26,6 +26,8 @@ print(f"Resultados encontrados: {len(matches)}")
 
 num_palavras = 50
 texto = ''
+print(string.upper(),"\n")
+print(f"Quantidade de palavras encontradas: {len(matches)} \n\n")
 for i in matches:
     inicio = i[1] - num_palavras
     if inicio < 0:
