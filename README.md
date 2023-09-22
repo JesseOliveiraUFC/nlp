@@ -54,6 +54,8 @@ informático indiano naturalizado estadunidense, foi o primeiro asiático a venc
 
 ## NUVEM DE PALAVRAS
 
+### Primeiro estudo - Base de dados do ChatGPT
+
 O arquivo Nuvem_de_Palavras(spacy).py realiza a construção da Nuvem de Palavras do texto acima.
 Uma primeira análise no texto, sem os devidos tratamentos necessários, nos mostram uma nuvem de palavras genéricas:
 
@@ -77,3 +79,6 @@ Para este modelo, realizamos testes com duas frases, uma de alegria e outra de t
 Ao realizar a validação do modelo com a base de treinamento, ele apresentou uma precisão de 100%, o que claramento se caracteriza o overfitting.
 Mas, ao realizar, a validação com a base de testes, obtive uma precisão de 87,5%. Estes resultados são aparentemente bons, mas não podemos afirmar, com plena certeza a sua validade, 
 pois além de termos poucos dados para treinamento e validação, a base foi, de certa forma, enviesada, pois a mesma foi inteiramente gerada pelo ChatGPT, que gerou frases com o mesmo viés.
+
+
+### Segundo estudo - Base de dados do Kaggle
