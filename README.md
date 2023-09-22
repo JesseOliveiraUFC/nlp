@@ -66,3 +66,14 @@ Assim, a nova Nuvem de Palavras, sem as stop words, fica:
 
 Com isso, podemos ter uma noção rápida de sobre o que o texto explica.
 
+## Classificação de Textos - Análise de sentimentos
+
+Nesta seção, utilizei o spaCy para fazer a contrução do modelo de aprendizada, para analisar textos e classificá-los com sentimentos de alegria ou medo.
+
+Para isso, utilizei uma base de dados de 240 frases geradas pelo ChatGPT, em português, e saparei em 200 frases para treinamento e 40 frases para teste.
+Os dados podem ser encontrados nos arquivos base_treinamento.csv e base_teste.csv
+
+Para este modelo, realizamos testes com duas frases, uma de alegria e outra de tristeza, ambas geradas pelo chat GPT. O modelo conseguiu acertar as duas frases.
+Ao realizar a validação do modelo com a base de treinamento, ele apresentou uma precisão de 100%, o que claramento se caracteriza o overfitting.
+Mas, ao realizar, a validação com a base de testes, obtive uma precisão de 87,5%. Estes resultados são aparentemente bons, mas não podemos afirmar, com plena certeza a sua validade, 
+pois além de termos poucos dados para treinamento e validação, a base foi, de certa forma, enviesada, pois a mesma foi inteiramente gerada pelo ChatGPT, que gerou frases com o mesmo viés.
