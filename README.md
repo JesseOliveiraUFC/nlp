@@ -54,8 +54,6 @@ informático indiano naturalizado estadunidense, foi o primeiro asiático a venc
 
 ## NUVEM DE PALAVRAS
 
-### Primeiro estudo - Base de dados do ChatGPT
-
 O arquivo Nuvem_de_Palavras(spacy).py realiza a construção da Nuvem de Palavras do texto acima.
 Uma primeira análise no texto, sem os devidos tratamentos necessários, nos mostram uma nuvem de palavras genéricas:
 
@@ -68,7 +66,10 @@ Assim, a nova Nuvem de Palavras, sem as stop words, fica:
 
 Com isso, podemos ter uma noção rápida de sobre o que o texto explica.
 
+
 ## Classificação de Textos - Análise de sentimentos
+
+### Primeiro estudo - Base de dados do ChatGPT
 
 Nesta seção, utilizei o spaCy para fazer a contrução do modelo de aprendizada, para analisar textos e classificá-los com sentimentos de alegria ou medo.
 
