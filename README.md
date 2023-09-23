@@ -83,3 +83,9 @@ pois além de termos poucos dados para treinamento e validação, a base foi, de
 
 
 ### Segundo estudo - Base de dados do Kaggle
+
+Para esse segundo texte utilizamos uma basde de dados em inglês baixada no kaggle pelo link: 
+
+https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download
+
+A base possui 20000 linhas de treinamento e 2000 linhas de testes, e pode ser encontrada nos arquivos train.txt e test.txt. O modelo pode ser encontrado no arquivo 
