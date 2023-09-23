@@ -89,3 +89,19 @@ Para esse segundo texte utilizamos uma basde de dados em inglês baixada no kagg
 https://www.kaggle.com/datasets/praveengovi/emotions-dataset-for-nlp?resource=download
 
 A base possui 20000 linhas de treinamento e 2000 linhas de testes, e pode ser encontrada nos arquivos train.txt e test.txt. O modelo pode ser encontrado no arquivo 
+"Classificação de Textos - Análise de Sentimentos - kaggle Dataset EN.py".
+
+Para esta base, realizamos diversas melhorias no código, como refatoração de treinamento e mapeamento de emoções.
+
+As emoções analisadas foram: "JOY", "SADNESS", "ANGER", "FEAR", "LOVE" e "SURPRISE".
+
+Para estre treinamento, obtivemos uma precisão de 87,5%. Um ótimo percentual de acerto.
+
+A matriz de confusão pode ser vista a seguir:
+
+![Confusion Matrix](https://github.com/JesseOliveiraUFC/nlp/assets/97004339/4d90b572-041e-456d-a236-8136b14d4ce3)
+
+As maiores diferenças são entre as emoções TRISTEZA e AMOR. É fácil entender o motivo da grande confusão entre os dois sentimentos, pois, poeticamente falando, o amor e a tristeza são 
+dois sentimentos muito parecidos que andam quase sempre juntos.
+
+Outras estratégias estão sendo estudadas para melhorar o treinamento dessa rede neural.
